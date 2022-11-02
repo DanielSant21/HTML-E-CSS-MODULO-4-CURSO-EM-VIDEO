@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+
+<style>
+
+    *{
+        margin: 0px;
+        padding: 0px;
+        color: white;
+        background: rgb(31, 31, 31);
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+
+    body > h1{
+        padding: 5px;
+        text-align: center;
+    }
+    body > form{
+        padding: 10px;
+        text-indent: 33vw;
+        text-align: left;
+    }
+
+    form > p{
+        padding: 5px;
+    }
+    input{
+        border: 1px solid grey;
+    }
+
+</style>
+
+</head>
+<body>
+    <h1>Meu primeiro formulário</h1>
+    <form action="cadastro.php">
+        <p>Nome:
+             <input type="text" name="nome" id="nome"> </p>
+        <p>Sobrenome:
+             <input type="text" name="sobrenome" id="sobrenome"> </p>
+        <p>
+            <input type="submit" value="Enviar" id="enviar"></p>
+    </form>
+</body>
+</html>
